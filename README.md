@@ -1,40 +1,75 @@
-# AI Webpage Summarizer Chrome Extension
+# ⚡ Briefly - Your AI Resume Extension
 
-A Chrome extension that uses Google's Gemini Pro API to summarize web pages and extract main topics.
+> Transform any webpage into a concise, intelligent summary with just one click!
 
-## Features
+<div align="center">
+  <img src="icons/icon128.png" alt="Briefly Logo" width="128" height="128">
+  
+  ![License](https://img.shields.io/badge/license-MIT-blue.svg)
+  ![Version](https://img.shields.io/badge/version-1.0.0-green.svg)
+  ![Made with Love](https://img.shields.io/badge/made%20with-♥-red.svg)
+</div>
 
-- Beautiful UI with Tailwind CSS
-- Secure API key storage
-- Webpage content summarization
-- Main topics extraction
-- Loading states and error handling
+## 🚀 Features
 
-## Setup
+- **Smart Summarization**: Powered by Google's Gemini AI for accurate and contextual summaries
+- **Multilingual Support**: Available in 6 languages 🌎
+  - English 🇬🇧
+  - Spanish 🇪🇸
+  - French 🇫🇷
+  - German 🇩🇪
+  - Italian 🇮🇹
+  - Portuguese 🇵🇹
+- **Keywords Extraction**: Get key topics and themes at a glance 🏷️
+- **Reading Stats**: Word count and estimated reading time ⏱️
+- **Dark Mode**: Easy on your eyes during those late-night reading sessions 🌙
+- **Export Options**: Download or copy summaries with one click 📋
+
+## 🛠️ Installation
 
 1. Clone this repository
 2. Open Chrome and go to `chrome://extensions/`
-3. Enable "Developer mode" in the top right
+3. Enable "Developer mode"
 4. Click "Load unpacked" and select the extension directory
-5. Get your Google API key and secret from the Google Cloud Console
-6. Click the extension icon and enter your API credentials
+5. Get your Gemini API key from [Google AI Studio](https://makersuite.google.com/app/apikey)
+6. Add your API key in the extension settings
 
-## Usage
+## 🎯 How to Use
 
 1. Navigate to any webpage you want to summarize
-2. Click the extension icon
-3. Click "Summarize Current Page"
-4. Wait for the analysis to complete
-5. View the summary and main topics
+2. Click the Briefly icon in your browser
+3. Hit the "Summarize Current Page" button
+4. Get your instant, AI-powered summary! ✨
 
-## Security
+## 💡 Tips
 
-- API credentials are stored securely using Chrome's storage API
-- Credentials are never exposed in the page content
-- All API calls are made over HTTPS
+- For best results, use on article pages, blog posts, or news content
+- Switch languages to get summaries in your preferred language
+- Use dark mode for comfortable nighttime reading
+- Save summaries for offline reference
 
-## Requirements
+## 🤝 Contributing
 
-- Google API key and secret
-- Chrome browser
-- Internet connection for API calls
+Feel free to:
+- Open issues
+- Submit PRs
+- Suggest new features
+- Help with translations
+
+## 📝 License
+
+MIT License - feel free to use this project however you like!
+
+## 🙏 Acknowledgments
+
+- Google Gemini AI for powering our summaries
+- Our amazing community of users
+- All contributors who helped make this extension better
+
+---
+
+<div align="center">
+  Made with ❤️ for readers everywhere
+  
+  [Report Bug](https://github.com/yourusername/briefly/issues) · [Request Feature](https://github.com/yourusername/briefly/issues)
+</div>
