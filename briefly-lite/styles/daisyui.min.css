@@ -1,0 +1,74 @@
+/* DaisyUI components */
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  min-height: 4rem;
+}
+
+.navbar-start {
+  flex: 1;
+}
+
+.navbar-end {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.swap {
+  position: relative;
+  display: inline-block;
+}
+
+.swap > * {
+  transition-property: transform, opacity;
+  transition-duration: 0.3s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.swap input ~ .swap-on,
+.swap input:checked ~ .swap-off {
+  transform: scale(0);
+  opacity: 0;
+  position: absolute;
+}
+
+.swap input:checked ~ .swap-on,
+.swap input ~ .swap-off {
+  transform: scale(1);
+  opacity: 1;
+  position: relative;
+}
+
+.prose {
+  max-width: none;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+}
+
+.prose h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.dark .prose {
+  color: var(--base-100);
+}
+
+.dark .prose h2 {
+  color: var(--base-100);
+}
+
+/* Animations */
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+} 

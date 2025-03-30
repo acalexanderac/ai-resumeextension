@@ -60,6 +60,20 @@ Feel free to:
 
 MIT License - feel free to use this project however you like!
 
+## 👨‍💻 Author
+
+<div align="center">
+  <img src="https://avatars.githubusercontent.com/acalexanderac" alt="Alexander AC" width="100" height="100" style="border-radius: 50%;">
+  
+  **Alexander AC**
+  
+  Software Engineer Enthusiast, Support Engineer by Night
+  
+  [![GitHub](https://img.shields.io/badge/GitHub-acalexanderac-181717?style=flat-square&logo=github)](https://github.com/acalexanderac)
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-calexanderac-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/calexanderac)
+  [![Email](https://img.shields.io/badge/Email-acalexander774@gmail.com-D14836?style=flat-square&logo=gmail)](mailto:acalexander774@gmail.com)
+</div>
+
 ## 🙏 Acknowledgments
 
 - Google Gemini AI for powering our summaries
@@ -71,5 +85,5 @@ MIT License - feel free to use this project however you like!
 <div align="center">
   Made with ❤️ for readers everywhere
   
-  [Report Bug](https://github.com/yourusername/briefly/issues) · [Request Feature](https://github.com/yourusername/briefly/issues)
+  [Report Bug](https://github.com/acalexanderac/briefly/issues) · [Request Feature](https://github.com/acalexanderac/briefly/issues)
 </div>

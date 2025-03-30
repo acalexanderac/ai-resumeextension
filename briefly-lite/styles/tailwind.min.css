@@ -1,0 +1,129 @@
+/* Tailwind base styles */
+:root {
+  --base-100: #ffffff;
+  --base-200: #f3f4f6;
+  --base-300: #e5e7eb;
+}
+
+.dark {
+  --base-100: #1f2937;
+  --base-200: #111827;
+  --base-300: #374151;
+}
+
+/* Utility classes */
+.bg-base-100 { background-color: var(--base-100); }
+.bg-base-200 { background-color: var(--base-200); }
+.bg-base-300 { background-color: var(--base-300); }
+
+.text-base-100 { color: var(--base-100); }
+.text-base-200 { color: var(--base-200); }
+.text-base-300 { color: var(--base-300); }
+
+/* Layout */
+.flex { display: flex; }
+.flex-1 { flex: 1; }
+.flex-none { flex: none; }
+.flex-wrap { flex-wrap: wrap; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.justify-end { justify-content: flex-end; }
+.gap-2 { gap: 0.5rem; }
+
+/* Spacing */
+.p-4 { padding: 1rem; }
+.mt-4 { margin-top: 1rem; }
+.mb-4 { margin-bottom: 1rem; }
+.mr-2 { margin-right: 0.5rem; }
+.ml-2 { margin-left: 0.5rem; }
+
+/* Typography */
+.text-xl { font-size: 1.25rem; }
+.text-sm { font-size: 0.875rem; }
+
+/* Components */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.btn-outline {
+  border: 1px solid var(--base-300);
+  background-color: transparent;
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: inherit;
+}
+
+.select {
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.375rem;
+  border: 1px solid var(--base-300);
+}
+
+.select-sm {
+  padding: 0.125rem 0.25rem;
+  font-size: 0.875rem;
+}
+
+.card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+
+.stat {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--base-200);
+}
+
+.stat-title {
+  font-size: 0.875rem;
+  color: var(--base-300);
+}
+
+.stat-value {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+/* Dark mode */
+.dark .btn-outline {
+  border-color: var(--base-300);
+  color: var(--base-100);
+}
+
+.dark .stat-title {
+  color: var(--base-300);
+}
+
+.dark .stat-value {
+  color: var(--base-100);
+} 
